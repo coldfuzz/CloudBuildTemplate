@@ -4,4 +4,4 @@ steps:
   args: ["./imageversionchecker.sh","quickstart-image"]
   
 - name: 'gcr.io/cloud-builders/docker'
-  args: [ 'build', '-t', 'us-central1-docker.pkg.dev/cosmic-bonus-358914/quickstart-docker-repo/quickstart-image:1.0.0', '.' ]
+  args: [ 'build', '-t', 'us-central1-docker.pkg.dev/cosmic-bonus-358914/kurt/quickstart-image:1.0.0', '.' ]
