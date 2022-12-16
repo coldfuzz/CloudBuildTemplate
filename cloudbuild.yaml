@@ -3,4 +3,4 @@ steps:
   entrypoint: "bash"
   args: ["./imageversionchecker.sh","quickstart-image"]
 - name: 'gcr.io/cloud-builders/docker'
-  args: [ 'build', '-t', 'europe-west2-docker.pkg.dev/cosmic-bonus-358914/kurt-denem/quickstart-image:1.0.0', '.' ]
+  args: [ 'build', '-t', 'europe-west2-docker.pkg.dev/cosmic-bonus-358914/kurt-denem/quickstart-image:1.0.1', '.' ]
