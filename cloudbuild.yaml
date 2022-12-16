@@ -1,9 +1,5 @@
 steps:
-- name: "gcr.io/cloud-builders/gcloud"
-  entrypoint: "bash"
-  args: ["./imageversionchecker.sh","atmosphere"]
-
 - name: 'gcr.io/cloud-builders/docker'
   args: [ 'build', '-t', 'us-central1-docker.pkg.dev/cosmic-bonus-358914/quickstart-docker-repo/quickstart-image:tag1', '.' ]
 images:
-- 'us-central1-docker.pkg.dev/cosmic-bonus-358914/quickstart-docker-repo/quickstart-image:tag1'
+- 'us-central1-docker.pkg.dev/cosmic-bonus-358914/quickstart-docker-repo/quickstart-image:1.0.0'
